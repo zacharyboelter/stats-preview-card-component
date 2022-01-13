@@ -5,6 +5,7 @@
 body{
     background-color: hsl(233, 47%, 7%);
     font-family: 'Inter', sans-serif;
+  
 }
 
 .container {
@@ -12,32 +13,67 @@ body{
     background-color: hsl(244, 38%, 16%);
     color: white;
     display: flex;
+    margin: 100px 150px;
 }
 
 .wrapper-left {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 25px 100px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    padding: 25px 75px;
 }
 
 .hero-title {
-    font-size: 48px;
+    font-size: 38px;
     font-family: 700;
     margin-bottom: 30px;
+    color: hsl(0, 0%, 100%);
+    text-align: left;
+    margin-top: 50px;
+
 }
 
 .body-copy {
-    
+    font-size: 15px;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin: 20px 0;
 }
 
-span {
+.insights {
     color: hsl(277, 64%, 61%);
 }
 
+img {
+    height: 100%;
+    background-color: hsl(277, 64%, 61%);
+    opacity: 50%;
+}
 .metrics{
     font-family: 'Lexend Deca', sans-serif;
+    font-weight: 900;
+    font-size: x-large;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.companies {
+    padding: 50px 50px 50px 0;
+}
+
+.templates {
+    padding: 50px 50px;
+}
+
+.queries {
+    padding: 50px 50px;
+}
+
+.metrics-sub {
+    color: hsla(0, 0%, 100%, 0.6);
+    font-weight: 100;
+    font-size: small;
 }
 .attribution {
     font-size: 11px;
