@@ -46,9 +46,9 @@ body{
 }
 
 img {
+    /* width: 640px; */
     height: 100%;
-    background-color: hsl(277, 64%, 61%);
-    opacity: 50%;
+    
 }
 .metrics{
     font-family: 'Lexend Deca', sans-serif;
@@ -78,6 +78,7 @@ img {
 .attribution {
     font-size: 11px;
     text-align: center;
+    color:hsla(0, 0%, 100%, 0.6);
   }
 
 .attribution a {
