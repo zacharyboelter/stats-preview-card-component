@@ -14,6 +14,7 @@ body{
     color: white;
     display: flex;
     margin: 100px 150px;
+    border-radius: 5px;
 }
 
 .wrapper-left {
@@ -48,6 +49,9 @@ body{
 img {
     /* width: 640px; */
     height: 100%;
+    background-color: hsl(277, 64%, 61%);
+    background-blend-mode: multiply;
+    border-radius: 0 5px 5px 0;
     
 }
 .metrics{
@@ -84,3 +88,5 @@ img {
 .attribution a {
     color: hsl(228, 45%, 44%);
   }
+
+  
